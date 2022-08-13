@@ -86,6 +86,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-ringdecomposerlib-green.svg)](https://anaconda.org/conda-forge/ringdecomposerlib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ringdecomposerlib.svg)](https://anaconda.org/conda-forge/ringdecomposerlib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ringdecomposerlib.svg)](https://anaconda.org/conda-forge/ringdecomposerlib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ringdecomposerlib.svg)](https://anaconda.org/conda-forge/ringdecomposerlib) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ringdecomposerlib--python-green.svg)](https://anaconda.org/conda-forge/ringdecomposerlib-python) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ringdecomposerlib-python.svg)](https://anaconda.org/conda-forge/ringdecomposerlib-python) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ringdecomposerlib-python.svg)](https://anaconda.org/conda-forge/ringdecomposerlib-python) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ringdecomposerlib-python.svg)](https://anaconda.org/conda-forge/ringdecomposerlib-python) |
 
 Installing ringdecomposerlib
 ============================
@@ -97,16 +98,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `ringdecomposerlib` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `ringdecomposerlib, ringdecomposerlib-python` can be installed with `conda`:
 
 ```
-conda install ringdecomposerlib
+conda install ringdecomposerlib ringdecomposerlib-python
 ```
 
 or with `mamba`:
 
 ```
-mamba install ringdecomposerlib
+mamba install ringdecomposerlib ringdecomposerlib-python
 ```
 
 It is possible to list all of the versions of `ringdecomposerlib` available on your platform with `conda`:
