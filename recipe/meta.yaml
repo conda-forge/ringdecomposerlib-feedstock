@@ -14,7 +14,7 @@ source:
     - patches/export_all_symbols.patch
 
 build:
-  number: 2
+  number: 3
 
 outputs:
   - name: {{ name|lower }}
@@ -28,6 +28,7 @@ outputs:
     requirements:
       build:
         - {{ compiler('c') }}
+        - {{ stdlib('c') }}
         - cmake
         - ninja
 
@@ -49,6 +50,7 @@ outputs:
     requirements:
       build:
         - {{ compiler('c') }}
+        - {{ stdlib('c') }}
         - python                              # [build_platform != target_platform]
         - cross-python_{{ target_platform }}  # [build_platform != target_platform]
         - cython                              # [build_platform != target_platform]
